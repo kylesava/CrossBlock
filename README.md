@@ -3,28 +3,28 @@
 I'm going to preface by saying this is a VERY old project, in fact I view it as the first real coding project that I have made. This was all the way back at the start of 2015, when I was in grade 8. This was a time when I had never recieved any formal education on Python, and my knowledge of what I was doing was completely based on exparimentation and a plethora of google searches for things like "How do I make graphics in python", and "can I put an array inside of an array". This is very clearly refleced in my code, as without ever having made a project of this scale, and not learning some fundementals of programming - there are some extremely inefficient but clever workarounds I had to come up with for the problems I was facing. <br>
 My favourite example of this comes with the first function that is defined, titled 'textfunc(r,x,i,o)'. On a first glance the nomenclature for variables is already horrendous, and it is completely unclear what these inputs refer to. If we look a little deeper though, we can see the purpose of this function, and when I had to use it. At the time, no one had ever taught me datatypes - I understood that I could use numbers, or I could have text with quotations, and that built-in functions may require these different types, but it never occured to me this was a problem that was 'already solved' so to speak. I've pasted the body of this function below so you can see for yourself if you're too lazy to go look at the Python file:
 
-    if r == 0:<br>
-        a=""<br>
-    elif r == 1:<br>
-        a="1"<br>
-    elif r == 2:<br>
-        a="2"<br>
-    elif r == 3:<br>
-        a="3"<br>
-    elif r == 4:<br>
-        a="4"<br>
-    elif r == 5:<br>
-        a="5"<br>
-    elif r == 6:<br>
-        a="6"<br>
-    elif r == 7:<br>
-        a="7"<br>
-    elif r == 8:<br>
-        a="8"<br>
-    elif r == 9:<br>
-        a="9"<br>
-    text = font.render(a, True, x)<br>
-    screen.blit(text, [i,o])<br>
+    if r == 0:
+        a=""
+    elif r == 1:
+        a="1"
+    elif r == 2:
+        a="2"
+    elif r == 3:
+        a="3"
+    elif r == 4:
+        a="4"
+    elif r == 5:
+        a="5"
+    elif r == 6:
+        a="6"
+    elif r == 7:
+        a="7"
+    elif r == 8:
+        a="8"
+    elif r == 9:
+        a="9"
+    text = font.render(a, True, x)
+    screen.blit(text, [i,o])
 <br>
 This function was a glorified and less functional version of str(). It's funny to look back on these projects and see how my code as evolved in efficiency and readability over the years, and I think this program as a whole is a perfect portal into the mind of a young computer science obsessed teenager. <br>
 
